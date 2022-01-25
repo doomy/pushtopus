@@ -1,0 +1,10 @@
+{
+    "vapidPublicKey": "vapid-public-key",
+    "vapidPrivateKey": "vapid-private-key",
+    "pushSubject": "mock-push-subject",
+    "storageConfiguration": {
+        "sqliteFile": "example-data/example.db"
+    },
+    "defaultIcon": "images/icon.png",
+    "defaultBadge": "images/badge.png"
+}

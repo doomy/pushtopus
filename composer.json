@@ -1,0 +1,20 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Doomy\\Pushtopus\\" : "src/"
+        }
+    },
+    "name": "doomy/pushtopus",
+    "description": "Web push notifications implementation",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "minishlink/web-push": "*",
+        "ext-gmp": "*",
+        "pdo-sqlite"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.9",
+        "mockery/mockery": "^1.3"
+    }
+}
