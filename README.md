@@ -33,6 +33,16 @@ If you need anything to happen on your frontend whenever the subscription state 
 ##### backend_actions_url
 Url to your backend script / API endpoint that handles the heavy lifting.
 
+#### Subscribing to notifications
+```js
+pushtopus.subscribe();
+```
+
+#### Unsubscribing from notifications
+```js
+pushtopus.unsubscribe();
+```
+
 #### Pushing a message
 ```js
 pushtopus.push('Sample Pushtopus notification', 'Something requires your attention...', 'https://github.com/doomy/pushtopus');
