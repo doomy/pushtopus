@@ -13,7 +13,7 @@
         </div>
 
         <div id="subscribedText" style="color: green;">
-            You are <strong>are</strong> subscribed to notifications.
+            You <strong>are</strong> subscribed to notifications.
         </div>
 
         <button id="subscribeBtn">Subscribe</button>
